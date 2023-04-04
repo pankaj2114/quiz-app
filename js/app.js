@@ -54,7 +54,7 @@ const submitQuiz = () =>{
 }
 
 const next = () =>{
-    if(index<total) index++;
+    if(index<total-1) index++;
     loadQuestion()
     return
 }
